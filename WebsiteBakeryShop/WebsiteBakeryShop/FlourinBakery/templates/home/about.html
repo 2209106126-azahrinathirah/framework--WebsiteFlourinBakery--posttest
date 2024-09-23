@@ -1,0 +1,29 @@
+{% extends 'home/layout.html' %}
+{% load static %}  <!-- Load static untuk akses gambar -->
+
+{% block content %}
+    <!-- Section About Title with Background -->
+    <div class="jumbotron text-center bg-warning text-white py-5"> 
+        <h1>About Us</h1>
+    </div>
+    
+    <!-- Content About -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-md-6">
+                <img src="{% static 'images/Flourin.png' %}" class="img-fluid" alt="Bakery Shop">
+            </div>
+            <!-- Text Column -->
+            <div class="col-md-6">
+                <h2>About Flourin Bakery</h2>
+                <p>Selamat datang di Flourin Bakery, tempat di mana setiap gigitan menceritakan kisah tentang kecintaan dan keahlian dalam memanggang. Didirikan dengan prinsip kualitas, keahlian, dan kecintaan pada seni memanggang, bakery kami berkomitmen untuk menyajikan hidangan istimewa yang membawa kebahagiaan di setiap kesempatan.</p>
+                
+                <p>Di Flourin Bakery, kami percaya bahwa rahasia dari roti yang lezat dimulai dengan bahan-bahan terbaik. Kami memilih produk lokal dan organik berkualitas tinggi untuk memastikan setiap roti, kue, dan pastry dibuat dengan sempurna. Para pembuat roti kami menggunakan teknik-teknik tradisional yang dipadukan dengan resep inovatif untuk menciptakan makanan yang menggugah selera dan memanjakan lidah Anda di setiap gigitan.</p>
+                
+                <p>Apakah Anda mencari baguette klasik, kue cokelat yang mewah, atau kue khusus untuk perayaan, Flourin Bakery siap untuk melebihi ekspektasi Anda. Kami bangga dengan suasana yang hangat dan ramah, di mana setiap pelanggan diperlakukan seperti keluarga. Terima kasih telah memilih Flourin Bakery. Kami berharap dapat menjadi bagian dari momen manis dan perayaan istimewa Anda.</p>
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}
