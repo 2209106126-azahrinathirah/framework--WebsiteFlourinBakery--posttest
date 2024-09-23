@@ -15,7 +15,7 @@
 ![Desain Database](https://github.com/user-attachments/assets/0cc090bf-706b-4e57-a619-bdcecf035d92)
 
 ### Table Utama
-![Table Utama](https://github.com/user-attachments/assets/4547feac-5c29-4f47-96fd-9b35782d6671)
+![Table Utama](https://github.com/user-attachments/assets/0892f9d8-e5db-4efa-8f58-888f057e35d1)
 
 ### 1. Table Users
 ![Table Users](https://github.com/user-attachments/assets/edf3cdb0-0934-4325-887b-6abd728acaee)
