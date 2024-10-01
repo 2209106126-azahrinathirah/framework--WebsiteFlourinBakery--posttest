@@ -1,7 +1,40 @@
+
 {% extends 'home/layout.html' %}
-{% block title %} products {% endblock %}
+
+{% load static %}  <!-- Memuat tag static -->
+
 {% block content %}
-<div class="hero bg-light p-5 rounded-lg m-3">
-<h1 class="display-4">ini produk kami</h1>
+<link rel="stylesheet" href="{% static 'css/style.css' %}"> <!-- Menambahkan link ke CSS -->
+
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center my-4">Our Products</h2>
+        </div>
+    </div>
+
+    <!-- Product List -->
+    <div class="product-container">
+        {% for product in products %}
+        <div class="product-card">
+            <!-- Product Image -->
+            <img src="{{ product.image.url }}" alt="{{ product.name }}" class="product-image">
+            
+            <!-- Product Name and Price -->
+            <h3 class="product-title">{{ product.name }}</h3>
+            <p class="product-price">IDR {{ product.price }}</p>
+
+            <!-- Quantity Control and Add to Cart Button -->
+            <div class="quantity-cart-container">
+                <div class="input-group quantity-control mb-3">
+                    <input type="number" class="form-control quantity-input" min="1" value="1" aria-label="Quantity">
+                </div>
+                <button class="btn btn-cart">Add to Cart</button>
+            </div>
+        </div>
+        {% empty %}
+        <p>No products are available at the moment.</p>
+        {% endfor %}
+    </div>
 </div>
 {% endblock %}
