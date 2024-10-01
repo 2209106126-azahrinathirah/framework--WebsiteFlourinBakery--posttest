@@ -65,3 +65,72 @@
 
 ![Struktur Tabel Contact](https://github.com/user-attachments/assets/32aa86cb-9b0a-4817-9c28-8600dbc12220)
 
+# POSTTEST 3
+## CategoryAdmin:
+### Form
+![Screenshot 2024-10-02 000242](https://github.com/user-attachments/assets/b0efc7c8-c849-4750-a6ba-df58c30b00c1)
+
+### Tabel
+![Screenshot 2024-10-02 000110](https://github.com/user-attachments/assets/a531eedb-b5f5-4907-aca6-6e66814aec88)
+
+![Screenshot 2024-10-02 010231](https://github.com/user-attachments/assets/aef0ab60-3e6b-471d-9fa5-5e6c5b2a3a3f)
+- Save Model: Sebelum menyimpan kategori, fungsi ini memeriksa apakah kolom deskripsi kosong. Jika kosong, deskripsi diisi secara otomatis dengan teks "Deskripsi tidak tersedia". Ini memastikan bahwa setiap kategori memiliki deskripsi, meskipun tidak spesifik.
+
+## ProductAdmin:
+### Form
+![Screenshot 2024-10-02 000225](https://github.com/user-attachments/assets/bb3bdbe2-3368-430e-831e-7f154615a0f3)
+
+### Tabel
+![Screenshot 2024-10-01 235626](https://github.com/user-attachments/assets/9867a980-7c70-4bd6-8c5b-418f0aec21b1)
+
+![Screenshot 2024-10-02 010241](https://github.com/user-attachments/assets/2cb4836b-33dc-4e88-893e-ae8a82bb9ba2)
+- Save Model: Sebelum menyimpan data produk, fungsi ini memeriksa apakah stok produk kurang dari 1. Jika ya, stok diatur menjadi 0. Ini mencegah pencatatan stok negatif, yang tidak logis dalam konteks pengelolaan produk.
+
+## UsersAdmin:
+### Form
+![Screenshot 2024-10-02 000202](https://github.com/user-attachments/assets/6f8844cc-009a-46ce-a8e5-6bf6a660c2a9)
+
+### Tabel
+![Screenshot 2024-10-01 235557](https://github.com/user-attachments/assets/a065e984-a32c-4569-ab48-19f5c217d5b6)
+
+![Screenshot 2024-10-02 010247](https://github.com/user-attachments/assets/01ef4f07-7571-4e2b-b363-682ee5a8d2f4)
+- Save Model: Fungsi ini memastikan bahwa jika pengguna memiliki peran tertentu (misalnya, peran 1), nama pengguna akan diubah menjadi huruf kecil sebelum disimpan. Ini membantu menjaga konsistensi dalam format nama pengguna, memudahkan pencarian, dan menghindari kebingungan dalam penggunaan nama yang sensitif terhadap huruf besar-kecil.
+
+## ProfilAdmin:
+### Form
+![Screenshot 2024-10-02 000212](https://github.com/user-attachments/assets/53ec403c-c907-48c8-8eb4-a3fe3e070613)
+
+### Tabel
+![Screenshot 2024-10-01 235613](https://github.com/user-attachments/assets/8033178a-82f6-4b08-98e0-ba44860bb980)
+
+![Screenshot 2024-10-02 010253](https://github.com/user-attachments/assets/d5a43e77-bd1f-4858-9993-68f0a15182e2)
+- Save Model: Sebelum menyimpan profil pengguna, fungsi ini memeriksa apakah nomor telepon diisi. Jika tidak, nomor telepon otomatis diisi dengan teks "Nomor telepon tidak tersedia". Ini memastikan bahwa setiap profil pengguna memiliki informasi yang konsisten, meskipun tidak lengkap.
+
+## CartAdmin:
+### Form
+![Screenshot 2024-10-02 000308](https://github.com/user-attachments/assets/c5a18496-7481-4887-bc5d-8d154cfdcf2d)
+
+### Tabel
+![Screenshot 2024-10-02 000120](https://github.com/user-attachments/assets/ea4dc411-e4e8-48d8-8e69-ead6e3385fa9)
+
+
+## CartItemAdmin:
+### Form
+![Screenshot 2024-10-02 000325](https://github.com/user-attachments/assets/8f54697e-25f7-487e-8a17-5b7c4f02bcb3)
+
+### Tabel
+![Screenshot 2024-10-02 000130](https://github.com/user-attachments/assets/08dc8880-db37-4488-97a1-8f7ff7baaf8e)
+
+![Screenshot 2024-10-02 010321](https://github.com/user-attachments/assets/553c7bca-b798-4051-8678-f7d19dd4813c)
+- Save Model: Fungsi ini memastikan bahwa jika jumlah item dalam keranjang kurang dari 1, jumlah tersebut otomatis diubah menjadi 1 sebelum disimpan. Ini mencegah pengaturan jumlah item menjadi nol, yang tidak logis dan dapat menyebabkan masalah saat memproses pesanan.
+
+## OrderAdmin:
+### Form
+![Screenshot 2024-10-02 000234](https://github.com/user-attachments/assets/2f36c68e-1334-4fed-9b77-e1a08a5b3c78)
+
+### Tabel
+![Screenshot 2024-10-02 000043](https://github.com/user-attachments/assets/4516f498-b193-4302-aad4-39f8be51c61f)
+
+![Screenshot 2024-10-02 010335](https://github.com/user-attachments/assets/dc5ee1e1-2e9e-402e-975d-b201246e1066)
+- Save Model: Sebelum menyimpan data pesanan, fungsi ini memeriksa apakah total jumlah pesanan kurang dari 0. Jika ya, total diatur menjadi 0. Ini memastikan bahwa data pesanan tetap valid dan logis, mencegah kesalahan dalam perhitungan total harga.
+
