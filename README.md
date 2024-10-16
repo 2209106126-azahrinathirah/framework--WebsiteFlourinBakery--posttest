@@ -134,3 +134,25 @@
 ![Screenshot 2024-10-02 010335](https://github.com/user-attachments/assets/dc5ee1e1-2e9e-402e-975d-b201246e1066)
 - Save Model: Sebelum menyimpan data pesanan, fungsi ini memeriksa apakah total jumlah pesanan kurang dari 0. Jika ya, total diatur menjadi 0. Ini memastikan bahwa data pesanan tetap valid dan logis, mencegah kesalahan dalam perhitungan total harga.
 
+# POSTTEST 4
+## Screenshot Tabel dan Form Hasil CRUD
+
+### Table Hasil Crud
+![table_crud](https://github.com/user-attachments/assets/88be365e-8b26-40de-acc2-95ee79851bb6)
+
+### Create Product
+![create](https://github.com/user-attachments/assets/1d77cb40-e998-4441-9d32-12165810f360)
+
+### Read Product
+![hasil_create](https://github.com/user-attachments/assets/42ef131b-3d5e-43fa-863f-a89648df9a0f)
+
+### Update Crute
+![update](https://github.com/user-attachments/assets/bca4c3f5-6efd-4de4-9ce5-4dab5d90ba8d)
+
+![hasil_update](https://github.com/user-attachments/assets/60553700-4ae4-4fe6-966a-4f82f9fe23aa)
+
+### Delete Product
+![hasil delete](https://github.com/user-attachments/assets/a2c927d2-9fb7-490f-83e5-10b7dd802e02)
+
+### Search Product
+![Search](https://github.com/user-attachments/assets/87a86fa4-1bc3-4473-924a-d6b749206091)
