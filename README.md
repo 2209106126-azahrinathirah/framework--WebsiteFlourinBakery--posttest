@@ -135,9 +135,9 @@
 - Save Model: Sebelum menyimpan data pesanan, fungsi ini memeriksa apakah total jumlah pesanan kurang dari 0. Jika ya, total diatur menjadi 0. Ini memastikan bahwa data pesanan tetap valid dan logis, mencegah kesalahan dalam perhitungan total harga.
 
 # POSTTEST 4
-## Screenshot Tabel dan Form Hasil CRUD
+## Screenshot Table dan Form Hasil CRUD
 
-### Table Hasil Crud
+### Table
 ![table_crud](https://github.com/user-attachments/assets/88be365e-8b26-40de-acc2-95ee79851bb6)
 
 ### Create Product
