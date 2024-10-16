@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 django = "*"
 django-bootstrap5 = "*"
-<<<<<<< HEAD
+
 mysqlclient = "*"
 django-seed = "*"
 psycopg2 = "*"

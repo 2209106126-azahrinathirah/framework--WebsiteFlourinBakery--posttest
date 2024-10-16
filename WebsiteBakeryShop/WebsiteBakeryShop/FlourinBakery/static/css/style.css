@@ -78,3 +78,54 @@ body {
     flex-grow: 1; /* Agar kontrol kuantitas mengisi ruang yang tersedia */
     margin-right: 5px; /* Jarak antara kontrol kuantitas dan tombol */
 }
+
+/* Gaya untuk label */
+.form-label {
+    font-weight: bold; /* Tebal */
+    color: #555; /* Warna label */
+}
+
+/* Gaya untuk input, textarea, dan select */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%; /* Lebar penuh */
+    padding: 10px; /* Padding di dalam elemen */
+    margin: 8px 0; /* Jarak vertikal */
+    border: 1px solid #ccc; /* Batas */
+    border-radius: 4px; /* Sudut melingkar */
+    box-sizing: border-box; /* Memastikan padding dan border termasuk dalam lebar total */
+    transition: border-color 0.3s; /* Transisi warna border */
+}
+
+/* Gaya untuk input saat focus */
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #007bff; /* Warna border saat focus */
+    outline: none; /* Menghilangkan outline default */
+}
+
+/* Gaya untuk button */
+button {
+    width: 100%; /* Lebar penuh untuk button */
+    background-color: #f06472; /* Warna latar belakang button */
+    color: white; /* Warna teks button */
+    padding: 10px; /* Padding di dalam button */
+    border: none; /* Tidak ada batas */
+    border-radius: 4px; /* Sudut melingkar */
+    cursor: pointer; /* Pointer saat hover */
+    transition: background-color 0.3s; /* Transisi warna latar belakang */
+}
+
+button:hover {
+    background-color: #c82333; /* Warna latar belakang saat hover */
+}
+
+/* Gaya untuk pesan error */
+.form-error {
+    color: red; /* Warna teks untuk pesan error */
+    font-size: 0.9em; /* Ukuran font untuk pesan error */
+    margin-top: 5px; /* Jarak atas */
+}
